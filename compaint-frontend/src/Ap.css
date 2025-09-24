@@ -1,0 +1,78 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.auth-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.auth-form input, .auth-form select, .auth-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-form button, .app button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.section {
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.complaint {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border-left: 5px solid #007bff;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.status.open { background: #dc3545; }
+.status.in-progress { background: #ffc107; color: black; }
+.status.closed { background: #28a745; }
+
+.demo-info {
+  background: #ffeaa7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
